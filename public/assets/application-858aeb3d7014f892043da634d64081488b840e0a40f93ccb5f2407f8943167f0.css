@@ -1,0 +1,238 @@
+/* line 5, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/gossips.scss */
+.h1 {
+  font-family: fantasy !important;
+  color: #008080 !important;
+  font-weight: bolder !important;
+  text-align: center;
+  margin-right: 230px;
+}
+
+/* line 13, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/gossips.scss */
+.godex {
+  background-image: url("Gossip2.jpeg");
+  background-size: 600px 400px;
+}
+
+/* line 18, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/gossips.scss */
+.gosho {
+  background-image: url("Gossip3.jpeg");
+  background-size: 300px 200px;
+}
+
+/* line 23, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/gossips.scss */
+.goed {
+  background-image: url("backpsyche1.jpeg");
+}
+
+/* line 27, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/gossips.scss */
+.card {
+  background-image: url("Gossip1.jpeg");
+  background-size: 1120px 700px;
+  color: #000000;
+  font-weight: bold;
+}
+
+/* line 34, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/gossips.scss */
+.indthead {
+  background-color: #008080;
+  color: #00FFFF;
+}
+
+/* line 39, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/gossips.scss */
+.indtbody {
+  background-color: #00FFFF;
+  color: #008080;
+}
+
+/* line 44, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/gossips.scss */
+.jumbotron {
+  background-color: #008080 !important;
+  color: #7FFFD4 !important;
+  font-size: 1.2em;
+  margin-top: 100px;
+}
+
+/* line 51, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/gossips.scss */
+.btn-primary {
+  background-color: #008080 !important;
+  color: #00FFFF !important;
+  font-family: fantasy;
+  font-weight: bolder !important;
+}
+/* line 56, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/gossips.scss */
+.btn-primary:hover {
+  background-color: #00FFFF !important;
+  color: #008080 !important;
+  border-color: #008080 !important;
+}
+
+/* line 63, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/gossips.scss */
+#voir {
+  background-color: green;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  font-family: fantasy;
+  font-weight: bolder !important;
+}
+/* line 69, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/gossips.scss */
+#voir:hover {
+  background-color: #FFFFFF;
+  color: green;
+  border-color: green;
+}
+
+/* line 76, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/gossips.scss */
+#edit {
+  background-color: blue;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  font-family: fantasy;
+  font-weight: bolder !important;
+}
+/* line 82, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/gossips.scss */
+#edit:hover {
+  background-color: #FFFFFF;
+  color: blue;
+  border-color: blue;
+}
+
+/* line 89, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/gossips.scss */
+#supp {
+  background-color: red;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  font-family: fantasy;
+  font-weight: bolder !important;
+}
+/* line 95, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/gossips.scss */
+#supp:hover {
+  background-color: #FFFFFF;
+  color: red;
+  border-color: red;
+}
+/* line 5, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/home.scss */
+.splash {
+  background-image: url("Gossip1.jpeg");
+  background-size: 1300px 700px;
+}
+
+/* line 10, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/home.scss */
+.titre {
+  text-shadow: -4px 4px #00FFFF !important;
+  text-align: left;
+  font-family: serif;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+/* line 18, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/home.scss */
+.titre2 {
+  text-align: left;
+  font-family: serif;
+  font-weight: bolder;
+  padding-left: 30px;
+  color: #008080;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+/* line 18, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/application.scss */
+.navbar {
+  background-color: #008080;
+}
+
+/* line 22, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/application.scss */
+.navbar-brand {
+  color: #00FFFF !important;
+  font-family: fantasy;
+  font-weight: 900;
+}
+/* line 26, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/application.scss */
+.navbar-brand:hover {
+  background-color: #008080;
+  color: #00FFFF;
+  border-color: #00FFFF;
+}
+
+/* line 33, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/application.scss */
+.btn-outline {
+  background-color: #00FFFF;
+  color: #008080;
+  font-family: fantasy;
+  font-weight: bolder !important;
+}
+/* line 38, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/application.scss */
+.btn-outline:hover {
+  background-color: #008080;
+  color: #00FFFF;
+  border-color: #00FFFF;
+}
+
+/* line 45, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/application.scss */
+.dropdown-toggle {
+  font-family: fantasy;
+  font-weight: bolder;
+  background-color: #008080 !important;
+  color: #00FFFF !important;
+  border-color: #FFFFFF !important;
+}
+/* line 51, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/application.scss */
+.dropdown-toggle:hover {
+  background-color: #FFFFFF !important;
+  color: #008080 !important;
+  border-color: #008080 !important;
+}
+
+/* line 58, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/application.scss */
+#logoG {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+/* line 63, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/application.scss */
+#connection {
+  font-family: serif;
+  background-color: #FFFFFF;
+  color: #008080;
+  border-color: #008080;
+}
+/* line 68, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/application.scss */
+#connection:hover {
+  background-color: #7FFFD4;
+}
+
+/* line 73, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/application.scss */
+#inscription {
+  font-family: serif;
+  background-color: #FFFFFF;
+  color: #008080;
+  border-color: #008080;
+}
+/* line 78, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/application.scss */
+#inscription:hover {
+  background-color: #7FFFD4;
+}
+
+/* line 83, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/application.scss */
+#mdp {
+  font-family: serif;
+  background-color: #FFFFFF;
+  color: #008080;
+  border-color: #008080;
+}
+/* line 88, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_6/2_Mardi/TheGossipProjectFinal/app/assets/stylesheets/application.scss */
+#mdp:hover {
+  background-color: #7FFFD4;
+}

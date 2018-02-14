@@ -4,7 +4,7 @@ Desoler mais ce README va etre tres rapide... (trop tard pour etre inspirer)
 Pour voir ce que j'ai, il suffit de soit vous connecter au lien heroku, soit de metre mon repo sur votre ordi, .... Enfin vous connaissez la musique.
 
 Lien heroku:
-https://gossipproject-final.herokuapp.com/
+https://gossip-project-final.herokuapp.com/
 
 NB: il y a des chances pour qu'une fois de plus, le lien Heroku ne marche pas. On n'est pas tres pote lui et moi...
 
