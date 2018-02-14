@@ -1,24 +1,15 @@
-# README
+# README The Gossip Project Final
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Desoler mais ce README va etre tres rapide... (trop tard pour etre inspirer)
+Pour voir ce que j'ai, il suffit de soit vous connecter au lien heroku, soit de metre mon repo sur votre ordi, .... Enfin vous connaissez la musique.
 
-Things you may want to cover:
+Lien heroku:
+https://gossipproject-final.herokuapp.com/
 
-* Ruby version
+NB: il y a des chances pour qu'une fois de plus, le lien Heroku ne marche pas. On n'est pas tres pote lui et moi...
 
-* System dependencies
 
-* Configuration
 
-* Database creation
+Le code de validation pour creer un nouveau profil est **GossipV2**
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Allez les langues de viperes lachez vous ;)
