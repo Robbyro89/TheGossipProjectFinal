@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+<body class="gosho">
+
+  <div class="jumbotron">
+    <p>
+      <strong style="font-size: 1.5em;"><b><u>Titre:</u></b></strong><br>
+      <i><%= @gossip.titre %></i>
+    </p>
+
+    <p>
+      <strong style="font-size: 1.5em;"><b><u>Content:</u></b></strong><br>
+      <i><%= @gossip.content %></i>
+    </p>
+  </div>
+
+</body>
+
+<% if moussaillon_signed_in? && current_moussaillon.id == @gossip.moussaillon_id %>
+  <div class="btn-group">
+    <%= link_to '<= Retour aux Gossips', gossips_path, class: "btn btn-primary" %>
+    <%= link_to 'Supprimer', gossip_path, method: :delete, data: { confirm: 'Tu es sur(e) ?' }, class: "btn btn-outline", id: "supp" %>
+    <%= link_to 'Modifier =>', edit_gossip_path(@gossip), class: "btn btn-outline", id: "edit" %>
+  </div>
+<% else %>
+  <%= link_to '<= Retour aux Gossips', gossips_path, class: "btn btn-primary" %>
+<% end %>

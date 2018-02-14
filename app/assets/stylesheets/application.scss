@@ -1,0 +1,90 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ .navbar {
+   background-color: #008080;
+ }
+
+ .navbar-brand {
+   color: #00FFFF!important;
+   font-family: fantasy;
+   font-weight: 900;
+   &:hover {
+     background-color: #008080;
+     color: #00FFFF;
+     border-color: #00FFFF;
+   }
+ }
+
+.btn-outline {
+  background-color: #00FFFF;
+  color: #008080;
+  font-family: fantasy;
+  font-weight: bolder!important;
+  &:hover {
+    background-color: #008080;
+    color: #00FFFF;
+    border-color: #00FFFF;
+  }
+}
+
+ .dropdown-toggle {
+   font-family: fantasy;
+   font-weight: bolder;
+   background-color: #008080!important;
+   color: #00FFFF!important;
+   border-color: #FFFFFF!important;
+   &:hover {
+     background-color: #FFFFFF!important;
+     color: #008080!important;
+     border-color: #008080!important;
+   }
+ }
+
+ #logoG {
+   max-width: 50px;
+   max-height: 50px;
+ }
+
+#connection {
+  font-family: serif;
+  background-color: #FFFFFF;
+  color: #008080;
+  border-color: #008080;
+  &:hover {
+    background-color: #7FFFD4;
+  }
+}
+
+#inscription {
+  font-family: serif;
+  background-color: #FFFFFF;
+  color: #008080;
+  border-color: #008080;
+  &:hover {
+    background-color: #7FFFD4;
+  }
+}
+
+#mdp {
+  font-family: serif;
+  background-color: #FFFFFF;
+  color: #008080;
+  border-color: #008080;
+  &:hover {
+    background-color: #7FFFD4;
+  }
+}

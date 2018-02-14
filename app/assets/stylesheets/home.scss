@@ -1,0 +1,24 @@
+// Place all the styles related to the PagesController controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.splash {
+  background-image: url("Gossip1.jpeg");
+  background-size: 1300px 700px;
+}
+
+.titre {
+  text-shadow: -4px 4px #00FFFF!important;
+  text-align: left;
+  font-family: serif;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+.titre2 {
+  text-align: left;
+  font-family: serif;
+  font-weight: bolder;
+  padding-left: 30px;
+  color: #008080;
+}

@@ -1,0 +1,38 @@
+<p id="notice"><%= notice %></p>
+<br>
+  <h1 class="h1">Gossips</h1>
+<br>
+<body class="godex">
+  <table class="table table-hover table-bordered">
+    <thead class="indthead">
+      <tr>
+        <th>Pseudo de l'Auteur</th>
+        <th>Titre du Gossip</th>
+        <th>Date de Création</th>
+        <th>Action(s)</th>
+      </tr>
+    </thead>
+    <tbody class="indtbody">
+      <% @gossips.each do |gossip| %>
+        <tr>
+          <td><%= gossip.moussaillon.username %></td>
+          <td><%= gossip.titre %></td>
+          <!-- Afficher la date de création (en allant dans schema.rb pour voir le nom)-->
+          <td><%= gossip.created_at %></td>
+        <!-- empêcher tous les moussaillons de supprimer les gossips d'autres-->
+        <% if moussaillon_signed_in? && current_moussaillon.id == gossip.moussaillon_id %>
+          <td class="btn btn-group">
+            <%= link_to 'Regarder', gossip, class: "btn btn-outline", id: "voir" %>
+            <%= link_to 'Editer', edit_gossip_path(gossip), class: "btn btn-outline", id: "edit" %>
+            <%= link_to 'Supprimer', gossip, method: :delete, data: { confirm: 'Tu es sur(e) ?' }, class: "btn btn-outline", id: "supp" %>
+          </td>
+        <% else %>
+          <td>
+            <%= link_to 'Regarder', gossip, class: "btn btn-outline", id: "voir" %>
+          </td>
+        <% end %>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</body>

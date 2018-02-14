@@ -1,0 +1,27 @@
+<body class="goed">
+  <div class="card">
+    <div class="card-body">
+      <h1>Nouveau Gossip</h1>
+<br>
+      <%= form_for(@gossip, method: :post) do |f| %>
+        <%= render 'form', gossip: @gossip %>
+<br><br>
+        <div class="field">
+          <%= f.label :titre %>
+          <%= f.text_field :titre, id: :gossip_titre %>
+        </div>
+<br><br>
+        <div class="field">
+          <%= f.label :content %>
+          <%= f.text_area :content, id: :gossip_content %>
+        </div>
+<br><br><br><br>
+        <div class="actions">
+          <%= f.submit "Crée ton Gossips", class: "btn btn-outline", id: "edit" %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</body>
+<br>
+<%= link_to '<= Retour aux Gossips', gossips_path, class: "btn btn-primary" %>

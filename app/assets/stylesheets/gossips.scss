@@ -1,0 +1,100 @@
+// Place all the styles related to the Gossips controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.h1 {
+  font-family: fantasy!important;
+  color: #008080!important;
+  font-weight: bolder!important;
+  text-align: center;
+  margin-right: 230px;
+}
+
+.godex {
+  background-image: url("Gossip2.jpeg");
+  background-size: 600px 400px;
+}
+
+.gosho {
+  background-image: url("Gossip3.jpeg");
+  background-size: 300px 200px;
+}
+
+.goed {
+  background-image: url("backpsyche1.jpeg");
+}
+
+.card{
+  background-image: url("Gossip1.jpeg");
+  background-size: 1120px 700px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.indthead {
+  background-color: #008080;
+  color: #00FFFF;
+}
+
+.indtbody {
+  background-color: #00FFFF;
+  color: #008080;
+}
+
+.jumbotron {
+  background-color: #008080!important;
+  color: #7FFFD4!important;
+  font-size: 1.2em;
+  margin-top: 100px;
+}
+
+.btn-primary {
+  background-color: #008080!important;
+  color: #00FFFF!important;
+  font-family: fantasy;
+  font-weight: bolder!important;
+  &:hover {
+    background-color: #00FFFF!important;
+    color: #008080!important;
+    border-color: #008080!important;
+  }
+}
+
+#voir {
+  background-color: green;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  font-family: fantasy;
+  font-weight: bolder!important;
+  &:hover {
+    background-color: #FFFFFF;
+    color: green;
+    border-color: green;
+  }
+}
+
+#edit {
+  background-color: blue;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  font-family: fantasy;
+  font-weight: bolder!important;
+  &:hover {
+    background-color: #FFFFFF;
+    color: blue;
+    border-color: blue;
+  }
+}
+
+#supp {
+  background-color: red;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  font-family: fantasy;
+  font-weight: bolder!important;
+  &:hover {
+    background-color: #FFFFFF;
+    color: red;
+    border-color: red;
+  }
+}

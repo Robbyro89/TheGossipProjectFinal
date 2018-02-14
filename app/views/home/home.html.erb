@@ -1,0 +1,22 @@
+<body class="splash">
+  <% content_for :top_content do %>
+    <div class="container-fluid">
+      <h1 class="titre">Bienvenue<br>sur le site<br>des Moussaillons<br>qui vous<br>révèlent<br>tout</h1>
+<br><br>
+        <% if moussaillon_signed_in? %>
+          <% link_to gossips_path %>
+          <h6 class="titre2">
+            Maintenant que tu es un des notres<br>
+            clic sur <b style="color: red">Gossips On Rails</b>
+            pour accéder à tous les gossips
+          </h6>
+        <% else %>
+
+          <h6 class="titre2">
+            Pour en savoir plus, connecte-toi vite !!!<br>
+            Si tu n'est pas encore adhérent, inscrit toi dès maintenant
+          </h6>
+        <% end %>
+    </div>
+  <% end %>
+</body>
