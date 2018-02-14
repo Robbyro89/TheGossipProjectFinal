@@ -1,5 +1,5 @@
 class Moussaillon < ApplicationRecord
-  attr_accessor :sign_in_count
+  attr_accessor :sign_up_code
     # Include default devise modules. Others available are:
     # :confirmable, :lockable, :timeoutable and :omniauthable
 
@@ -7,5 +7,5 @@ class Moussaillon < ApplicationRecord
            :recoverable, :rememberable, :trackable, :validatable
 
     has_many :gossips
-    validates :sign_in_count, on: :create, presence: true, inclusion: { in: ["GossipV2"]}
+    validates :sign_up_code, on: :create, presence: true, inclusion: { in: ["GossipV2"]}
   end
