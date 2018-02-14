@@ -79,7 +79,7 @@ config.action_mailer.default_url_options = { host: 'sitepoint-devise.herokuapp.c
     # :password       => ENV['SENDGRID_PASSWORD'],
     # :domain         => 'heroku.com',
     # :enable_starttls_auto => true
-}
+
 
 
 
